@@ -69,6 +69,7 @@ footer {
   padding: 20px;
   position: fixed;
   bottom: 0;
+}
 
 @media (max-width: 768px) {
   /* Стили для мобильных устройств */
