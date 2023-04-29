@@ -93,7 +93,7 @@ h3 {
 img {
     opacity: 0;
     transform: translateY(-150%);
-    animation: ani 1s forwards;
+    animation: ani 0.7s forwards;
 }
 
 @keyframes ani {
