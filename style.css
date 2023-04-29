@@ -10,6 +10,17 @@ body {
 	padding: 20px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+a:hover {
+    color: red;
+    opacity: 0.5;
+}
+
 header h1, h2 {
     text-align: center;
 }
@@ -33,11 +44,6 @@ main h2 {
   margin-top: 20px;
 }
 
-.navbar__logo {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
 .navbar__menu {
   display: flex;
   justify-content: space-between;
@@ -51,16 +57,6 @@ main h2 {
   list-style: none;
   cursor: pointer;
 }
-
-.navbar__menu li {
-  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; /*добавляем transition для свойств color и opacity*/
-}
-
-.navbar__menu li:hover {
-  color: red; /* изменить цвет текста */
-  opacity: 0.5; /* изменить прозрачность */
-}
-
 
 .content {
   display: none;
@@ -93,7 +89,7 @@ h3 {
 img {
     opacity: 0;
     transform: translateY(-150%);
-    animation: ani 0.7s forwards;
+    animation: ani 1.5s forwards;
 }
 
 @keyframes ani {
