@@ -27,6 +27,8 @@ header h1, h2 {
 
 main h2 {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
@@ -59,12 +61,13 @@ main h2 {
 }
 
 .projects_img {
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
 }
 
-h3 {
-    margin: 0px auto;
+.projects_img2 {
+    display: flex;
+    justify-content: center;
 }
 
 img {
