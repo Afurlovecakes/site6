@@ -41,6 +41,17 @@ div {
     margin-left: auto;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+a:hover {
+    color: red;
+    opacity: 0.5;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -72,38 +83,4 @@ div {
   margin: 0 20px;
   list-style: none;
   cursor: pointer;
-}
-
-.navbar__menu li {
-  transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; /*добавляем transition для свойств color и opacity*/
-}
-
-.navbar__menu li:hover {
-  color: red; /* изменить цвет текста */
-  opacity: 0.5; /* изменить прозрачность */
-}
-
-
-.content {
-  display: none;
-}
-
-#home-content {
-  display: block;
-}
-
-#about-content {
-  display: none;
-}
-
-#portfolio-content {
-  display: none;
-}
-
-#projects-content {
-  display: none;
-}
-
-#contact-content {
-  display: none;
 }
