@@ -18,7 +18,7 @@ a {
 
 a:hover {
     color: red;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 header h1, h2 {
@@ -58,32 +58,13 @@ main h2 {
   cursor: pointer;
 }
 
-.content {
-  display: none;
-}
-
-#home-content {
-  display: block;
-}
-
-#about-content {
-  display: none;
-}
-
-#portfolio-content {
-  display: none;
-}
-
-#projects-content {
-  display: none;
-}
-
-#contact-content {
-  display: none;
+.projects_img {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h3 {
-    margin: 0px auto 20px 350px;
+    margin: 0px auto;
 }
 
 img {
